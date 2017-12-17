@@ -1,0 +1,29 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "React Tutorial based on sample examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwani-luhaniwal/react-tutorial.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Tutorial"
+  ],
+  "author": "Ashwani K Luhaniwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashwani-luhaniwal/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/ashwani-luhaniwal/react-tutorial#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
