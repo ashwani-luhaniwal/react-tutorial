@@ -12,6 +12,8 @@ import StateProps from './StateProps.jsx';
 import PropsValidation from './PropsValidation.jsx';
 import ComponentAPI from './ComponentAPI.jsx';
 import ComponentLifeCycle from './ComponentLifeCycle.jsx';
+import Forms from './Forms/Forms.jsx';
+import ComplexForm from './Forms/ComplexForm.jsx';
 import { setTimeout } from 'timers';
 
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -22,8 +24,10 @@ import { setTimeout } from 'timers';
 // ReactDOM.render(<StateProps />, document.getElementById('stateprops'));
 // ReactDOM.render(<PropsValidation />, document.getElementById('props-validation'));
 // ReactDOM.render(<ComponentAPI />, document.getElementById('component-api'));
-ReactDOM.render(<ComponentLifeCycle />, document.getElementById('component-lifecycle'));
+// ReactDOM.render(<ComponentLifeCycle />, document.getElementById('component-lifecycle'));
+// ReactDOM.render(<Forms />, document.getElementById('forms'));
+ReactDOM.render(<ComplexForm />, document.getElementById('complex-form'));
 
-setTimeout(() => {
+/* setTimeout(() => {
     ReactDOM.unmountComponentAtNode(document.getElementById('component-lifecycle'));
-}, 2000);
+}, 2000); */
