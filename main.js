@@ -11,6 +11,8 @@ import Props from './Props.jsx';
 import StateProps from './StateProps.jsx';
 import PropsValidation from './PropsValidation.jsx';
 import ComponentAPI from './ComponentAPI.jsx';
+import ComponentLifeCycle from './ComponentLifeCycle.jsx';
+import { setTimeout } from 'timers';
 
 // ReactDOM.render(<App />, document.getElementById('app'));
 // ReactDOM.render(<App2 />, document.getElementById('app2'));
@@ -18,5 +20,10 @@ import ComponentAPI from './ComponentAPI.jsx';
 // ReactDOM.render(<State />, document.getElementById('state'));
 // ReactDOM.render(<Props headerProp = "Header from props..." contentProp = "Content from props..." />, document.getElementById('props'));
 // ReactDOM.render(<StateProps />, document.getElementById('stateprops'));
-ReactDOM.render(<PropsValidation />, document.getElementById('props-validation'));
-ReactDOM.render(<ComponentAPI />, document.getElementById('component-api'));
+// ReactDOM.render(<PropsValidation />, document.getElementById('props-validation'));
+// ReactDOM.render(<ComponentAPI />, document.getElementById('component-api'));
+ReactDOM.render(<ComponentLifeCycle />, document.getElementById('component-lifecycle'));
+
+setTimeout(() => {
+    ReactDOM.unmountComponentAtNode(document.getElementById('component-lifecycle'));
+}, 2000);
