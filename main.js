@@ -14,6 +14,8 @@ import ComponentAPI from './ComponentAPI.jsx';
 import ComponentLifeCycle from './ComponentLifeCycle.jsx';
 import Forms from './Forms/Forms.jsx';
 import ComplexForm from './Forms/ComplexForm.jsx';
+import Event from './Events/Event.jsx';
+import ChildEvents from './Events/ChildEvents.jsx';
 import { setTimeout } from 'timers';
 
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -26,7 +28,9 @@ import { setTimeout } from 'timers';
 // ReactDOM.render(<ComponentAPI />, document.getElementById('component-api'));
 // ReactDOM.render(<ComponentLifeCycle />, document.getElementById('component-lifecycle'));
 // ReactDOM.render(<Forms />, document.getElementById('forms'));
-ReactDOM.render(<ComplexForm />, document.getElementById('complex-form'));
+// ReactDOM.render(<ComplexForm />, document.getElementById('complex-form'));
+// ReactDOM.render(<Event />, document.getElementById('event'));
+ReactDOM.render(<ChildEvents />, document.getElementById('child-event'));
 
 /* setTimeout(() => {
     ReactDOM.unmountComponentAtNode(document.getElementById('component-lifecycle'));
