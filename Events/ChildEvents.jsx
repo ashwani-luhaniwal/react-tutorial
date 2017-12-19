@@ -10,6 +10,11 @@ class ChildEvents extends React.Component {
         }
         this.updateState = this.updateState.bind(this);
     };
+    /**
+     * When we need to update the state of parent compoent from its child, we can create an event 
+     * handler (updateState) in parent component and pass it as a prop (updateStateProp) to child
+     * component where we can just call it.
+     */
     updateState() {
         this.setState({ data: 'Data updated from child component' });
     }
