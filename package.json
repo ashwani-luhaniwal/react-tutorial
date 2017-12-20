@@ -1,7 +1,7 @@
 {
   "name": "react-tutorial",
   "version": "1.0.0",
-  "description": "react tutorial app",
+  "description": "React App Tutorial",
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server --hot"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/ashwani-luhaniwal/react-tutorial.git"
   },
   "keywords": [
-    "react",
-    "tutorial"
+    "React",
+    "App"
   ],
   "author": "Ashwani K Luhaniwal",
   "license": "MIT",

@@ -2,7 +2,7 @@ var config = {
     entry: './main.js',
     output: {
         path: '/',
-        filename: 'index.js',
+        filename: 'bundle.js',
     },
     devServer: {
         inline: true,
@@ -20,6 +20,11 @@ var config = {
                 query: {
                     presets: ['es2015', 'react']
                 }
+            },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader'
             }
         ]
     }
