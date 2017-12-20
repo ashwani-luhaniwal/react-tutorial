@@ -1,9 +1,11 @@
 {
   "name": "react-tutorial",
   "version": "1.0.0",
-  "description": "React App Tutorial",
-  "main": "index.html",
+  "description": "React Tutorial Demo App",
+  "main": "main.js",
   "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
     "start": "webpack-dev-server --hot"
   },
   "repository": {
