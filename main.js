@@ -15,8 +15,9 @@ import ReactDOM from 'react-dom';
 // import Forms from './Forms/Forms.jsx';
 // import ComplexForm from './Forms/ComplexForm.jsx';
 // import Event from './Events/Event.jsx';
-import ChildEvents from './Events/ChildEvents.jsx';
+// import ChildEvents from './Events/ChildEvents.jsx';
 // import Refs from './Refs/Refs.jsx';
+import Keys from './Keys/keys.jsx';
 // import { setTimeout } from 'timers';
 
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -31,8 +32,9 @@ import ChildEvents from './Events/ChildEvents.jsx';
 // ReactDOM.render(<Forms />, document.getElementById('forms'));
 // ReactDOM.render(<ComplexForm />, document.getElementById('complex-form'));
 // ReactDOM.render(<Event />, document.getElementById('event'));
-ReactDOM.render(<ChildEvents />, document.getElementById('child-event'));
+// ReactDOM.render(<ChildEvents />, document.getElementById('child-event'));
 // ReactDOM.render(<Refs />, document.getElementById('refs'));
+ReactDOM.render(<Keys />, document.getElementById('keys'));
 
 /* setTimeout(() => {
     ReactDOM.unmountComponentAtNode(document.getElementById('component-lifecycle'));
