@@ -17,7 +17,8 @@ import ReactDOM from 'react-dom';
 // import Event from './Events/Event.jsx';
 // import ChildEvents from './Events/ChildEvents.jsx';
 // import Refs from './Refs/Refs.jsx';
-import Keys from './Keys/keys.jsx';
+// import Keys from './Keys/keys.jsx';
+import RouterApp from './Router/RouterApp.js';
 // import { setTimeout } from 'timers';
 
 // ReactDOM.render(<App />, document.getElementById('app'));
@@ -34,7 +35,8 @@ import Keys from './Keys/keys.jsx';
 // ReactDOM.render(<Event />, document.getElementById('event'));
 // ReactDOM.render(<ChildEvents />, document.getElementById('child-event'));
 // ReactDOM.render(<Refs />, document.getElementById('refs'));
-ReactDOM.render(<Keys />, document.getElementById('keys'));
+// ReactDOM.render(<Keys />, document.getElementById('keys'));
+ReactDOM.render(<RouterApp />, document.getElementById('router'));
 
 /* setTimeout(() => {
     ReactDOM.unmountComponentAtNode(document.getElementById('component-lifecycle'));
