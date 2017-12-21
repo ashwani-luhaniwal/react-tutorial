@@ -1,11 +1,15 @@
 /**
+ * -------------
  * JSX Concepts
+ * -------------
  * JSX is syntax extension to JavaScript.
  * It might reminds you template language, but comes with full power of JavaScript.
  */
 
 /**
+ * ---------
  * Why JSX ?
+ * ---------
  * Instead of artificially separating technologies by putting markup and logic in separate files,
  * React separates concerns with loosely coupled units called "components" that contain both.
  * React doesn't require using JSX, but most people find it helpful as a visual aid when working
